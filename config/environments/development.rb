@@ -23,7 +23,5 @@ OSConf::Application.configure do
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
   
-  # test addresses for ActionMailer
-  config.test_address = ENV['test_email_address']
 end
 

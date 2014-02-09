@@ -1,12 +1,9 @@
 source 'http://rubygems.org'
 
-gem "rails", "3.2.11"
-gem "rake", "0.9.2.2"
-gem "jammit"
-gem "rmagick"
-gem "sendgrid"
+gem "rails"
+gem "rake"
 gem "pg"
-gem "haml"
+gem "nokogiri"
 
 group :development do
   gem "heroku"
